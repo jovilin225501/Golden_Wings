@@ -1,1 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#08090d">
+	<title>NEGATIVE RUNNER // THE WORST SCORE GAME EVER</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="game-shell">
+		<div id="scene"></div>
+		<div class="scanlines"></div>
+		<header class="hud" aria-label="Game telemetry">
+			<a class="logo" href="#" aria-label="Negative Runner home"><span class="logo-mark">−</span><span>NEGATIVE<br><b>RUNNER</b></span></a>
+			<div class="hud-stat"><span>SCORE</span><strong id="score">0</strong></div>
+			<div class="hud-stat"><span>DISTANCE</span><strong id="distance">0 m</strong></div>
+			<div class="hud-stat"><span>SPEED</span><strong id="speed">12 m/s</strong></div>
+			<button class="icon-button" id="muteButton" aria-label="Mute sound">◖))</button>
+			<button class="icon-button" id="pauseButton" aria-label="Pause game">Ⅱ</button>
+			<button class="hud-menu-button" id="hudMenuButton">MAIN MENU</button>
+		</header>
+		<div id="message" class="message" aria-live="polite"></div>
+		<div class="corner-note corner-note-left">RUN FOREVER. LOSE EVERYTHING.</div>
+		<div class="corner-note corner-note-right">RUN FOREVER. LOSE EVERYTHING.</div>
+		<div id="menu" class="overlay active">
+			<div class="menu-copy"><div class="eyebrow">A completely unnecessary 3D experience</div><h1>NEGATIVE<br><em>RUNNER</em></h1><p>The only game where getting worse means winning.</p><button class="primary-button" id="startButton">START RUN <span>↗</span></button><div class="menu-links"><button id="howButton">HOW TO PLAY</button><button id="settingsButton">SETTINGS</button><button id="creditsButton">CREDITS</button></div></div>
+			<div class="menu-foot"><span>V 1.0.0 // OBJECT POOL ONLINE</span><span>© 2026 FAILURE SYSTEMS</span></div>
+		</div>
+		<div id="howPanel" class="modal"><button class="modal-close" data-close>×</button><div class="eyebrow">OPERATING MANUAL</div><h2>Run badly.<br>Win worse.</h2><p>Survive to make your score more negative. That is the entire business model.</p><div class="key-grid"><span><b>A / D</b> or <b>← / →</b><small>Change lanes</small></span><span><b>SPACE</b><small>Jump</small></span><span><b>S</b> or <b>↓</b><small>Slide</small></span><span><b>P</b><small>Pause</small></span></div><button class="primary-button" data-close>GOT IT, I THINK</button></div>
+		<div id="continuePanel" class="modal continue-panel"><div class="eyebrow">NEGATIVE MILESTONE // -100</div><h2>Do you still<br>want to continue?</h2><p>You have reached -100. There is no reward, no lesson, and absolutely no reason to stop.</p><div class="continue-actions"><button class="primary-button" id="continueButton">CONTINUE RUN <span>↗</span></button><button class="text-button" id="endAtHundredButton">END RUN</button></div></div>
+		<div id="gameOver" class="overlay"><div class="game-over-card"><div class="eyebrow">RUN TERMINATED // SUCCESSFULLY</div><h2 style="font-size:52px;margin:8px 0 12px">GAME<br><em>OVER</em></h2><button class="primary-button respawn-result-button" id="respawnButton">RESPAWN <span>↗</span></button><div class="final-score"><span>YOUR FINAL SCORE</span><strong id="finalScore">-0</strong></div><p id="finalMessage">CONGRATULATIONS!<br>YOU FAILED SUCCESSFULLY.</p><div class="final-stats"><span>DISTANCE <b id="finalDistance">0 m</b></span><span>TIME <b id="finalTime">00:00</b></span></div><div class="game-over-actions"><button class="text-button" id="startRunButton">START RUN</button><button class="text-button" id="menuButton">MAIN MENU</button></div></div></div>
+		<nav class="mobile-controls" aria-label="Touch controls"><button data-control="left" aria-label="Move left">←</button><button data-control="jump" aria-label="Jump">↑<small>JUMP</small></button><button data-control="slide" aria-label="Kneel">↓<small>KNEEL</small></button><button data-control="right" aria-label="Move right">→</button></nav>
+		<button class="useless-button" id="worseButton">MAKE SCORE WORSE <span>−1</span></button>
+		<button class="panic-button" id="panicButton">PANIC</button>
+	</div>
+	<script src="assets/three.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
 
