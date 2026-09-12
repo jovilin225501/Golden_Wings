@@ -81,8 +81,8 @@ Game playing interface
 Game eliminated and respawn button displays
 
 # Diagrams
-[<img width="1536" height="1024" alt="ChatGPT Image Sep 12, 2026, 05_28_05 AM" src="https://github.com/user-attachments/assets/9fb826af-b0e2-4ae8-9f49-7904606fd6d6" />
-]
+<img width="1536" height="1024" alt="ChatGPT Image Sep 12, 2026, 05_28_05 AM" src="https://github.com/user-attachments/assets/9fb826af-b0e2-4ae8-9f49-7904606fd6d6" />
+
 Figure: Workflow of NEGATIVE RUNNER — The process starts with launching the game, followed by real-time 3D gameplay and player movement using keyboard controls. The game continues until the player reaches the game-over condition, displays the final negative score, and provides an option to restart and try again.
 
 
