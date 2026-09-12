@@ -68,16 +68,16 @@ The game can also be accessed directly through the deployed Vercel website.]
 For Software:
 
 # Screenshots (Add at least 3)
-![<img width="1917" height="962" alt="Screenshot 2026-09-12 051542" src="https://github.com/user-attachments/assets/e2d093a8-c895-4762-82a4-fba2dba15384" />
-]
+<img width="1917" height="962" alt="Screenshot 2026-09-12 051542" src="https://github.com/user-attachments/assets/e2d093a8-c895-4762-82a4-fba2dba15384" />
+
 Game start interface
 
-![<img width="1917" height="962" alt="Screenshot 2026-09-12 051558" src="https://github.com/user-attachments/assets/c645cdb7-3940-4651-af47-e883e34b3130" />
-]
+<img width="1917" height="962" alt="Screenshot 2026-09-12 051558" src="https://github.com/user-attachments/assets/c645cdb7-3940-4651-af47-e883e34b3130" />
+
 Game playing interface
 
-![<img width="1917" height="962" alt="Screenshot 2026-09-12 051611" src="https://github.com/user-attachments/assets/cff35429-dd0b-420b-9c49-c9030748c40b" />
-]
+<img width="1917" height="962" alt="Screenshot 2026-09-12 051611" src="https://github.com/user-attachments/assets/cff35429-dd0b-420b-9c49-c9030748c40b" />
+
 Game eliminated and respawn button displays
 
 # Diagrams
